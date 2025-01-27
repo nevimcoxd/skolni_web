@@ -1,39 +1,22 @@
-body {
-    background-color: rgb(13, 104, 194);
-}
-
 #website {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 #header {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid white;
 }
 
-.logo {
-    color: red;
-    border:1px solid darkcyan;
+.logo img{
+    width: 250px;
 }
 
-.menu {
-    text-align: right;
-    border:1px solid gold;
-}
-
-.menu li {
-    display: inline-block;
-    padding: 5px;
-}
-
-.menu li{
-    color:azure;
-}
-
-.menu li a{
-    color:blueviolet;
-    text-decoration: none;
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
