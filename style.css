@@ -25,25 +25,45 @@ nav ul {
 
 .banner {
     width: 100%;
-    height: 520px;
-    background-image: url('POZADI_1.jpg');
+	height: 500px;
+	overflow: hidden;
+	background-color: #000000;
+
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+    background-image: url("img/POZADI_1.jpg");
     background-size: cover;
     background-position: center;
+    transition: all .5s;
+    opacity: 1;
+}
+
+.banner-image:hover {
+    transform: scale(1);
 }
 
 .banner-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 255, 13);
-    text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(119, 255, 0);
+	text-align: center;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+	padding: 0px 30px;
+	border-radius:10px;
+
 }
 
 .banner-text h1 {
     font-size: 48px;
     font-weight: bold;
 }
+
 
 .banner-text p {
     font-size: 24px;
@@ -63,4 +83,63 @@ p {
   font-style: normal;
   font-variation-settings:"width" 100;
 
+}
+
+.features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px 10px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 30px 0;
+}
+
+.feature-head {
+    display: flex;
+    align-items: center;
+}
+
+.feature-head svg {
+	margin-right: 10px;
+}
+
+.feature-head h3 {
+	margin:0;
+	color: #AF47E8;
+	font-size: 20px;
+}
+
+.feature p {
+	line-height: 1.5;
+}
+
+.icon-time {
+	--un-icon: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 24 24' width='1.2em' height='1.2em' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath fill='currentColor' d='m22 5.72l-4.6-3.86l-1.29 1.53l4.6 3.86zM7.88 3.39L6.6 1.86L2 5.71l1.29 1.53zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9a9 9 0 0 0 0-18m0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7s7 3.13 7 7s-3.13 7-7 7m-1.46-5.47L8.41 12.4l-1.06 1.06l3.18 3.18l6-6l-1.06-1.06z'/%3E%3C/svg%3E");
+	-webkit-mask: var(--un-icon) no-repeat;
+	mask: var(--un-icon) no-repeat;
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	background-color: currentColor;
+	color: inherit;
+	width: 1.2em;
+	height: 1.2em;
+  }
+
+.feature-icon {
+	font-size: 40px;
+	margin-right: 10px;
+	color:#AF47E8;
+}
+
+.cta {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.cta h2 {
+	font-size: 28px;
 }
