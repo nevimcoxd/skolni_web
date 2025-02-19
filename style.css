@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
+
+:root {
+	--primary-color: #9A735B;
+	--bg-color: white;
+	--text-color: #000;
+}
+
+
+.dark-theme {
+	--bg-color: #000;
+	--text-color: white;
+}
+
+
+
 #website {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.root{
-    --bg-color: white;
-    --text-color:black;
-}
+
 h1,h2,h3,h4,h5 {
     font-family: "Karla", serif;
   font-optical-sizing: auto;
