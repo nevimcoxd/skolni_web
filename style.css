@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 body {
-    background-color: rgb(38, 37, 37);
+
+    background-color: #1E1E1E;
+
     color: whitesmoke; 
   }
 :root {
@@ -77,7 +79,7 @@ nav ul {
 	transform: translate(-50%, -50%);
 	color: rgb(0, 0, 0);
 	text-align: center;
-	text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 	padding: 0px 30px;
 	border-radius:100px;
 
@@ -116,7 +118,7 @@ p {
     padding: 15px;
     border: 2px solid #fdfdfb;
     border-radius: 8px;
-    background-color: #1a1a18;
+    background-color: #000000;
     color: #fdfdfb;
     margin: 10px; 
 }
@@ -215,7 +217,7 @@ p {
   }
   
   .theme-primary .btn {
-      background-color: rgb(38, 37, 37);
+      background-color: rgb(0, 0, 0);
   }
 
 .container1 {
@@ -223,7 +225,12 @@ p {
     padding:20px;
     align-items: center; 
     gap: 20px; 
-    border:5px black;
+    padding: 15px;
+    border: 2px solid #fdfdfb;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fdfdfb;
+    margin: 10px; 
 }
 
 .container1-obrazek {
@@ -245,7 +252,12 @@ p {
     flex-direction: row-reverse;
     align-items: center; 
     gap: 20px; 
-    border:5px black;
+    padding: 15px;
+    border: 2px solid #fdfdfb;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fdfdfb;
+    margin: 10px; 
 }
 
 .container2-obrazek {
@@ -266,7 +278,12 @@ p {
     padding:20px;
     align-items: center; 
     gap: 20px; 
-    border:5px black;
+    padding: 15px;
+    border: 2px solid #fdfdfb;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fdfdfb;
+    margin: 10px; 
 }
 
 .container3-obrazek {
