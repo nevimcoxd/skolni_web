@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 body {
-    background-color: black;
+    background-color: rgb(38, 37, 37);
     color: whitesmoke; 
   }
 :root {
-	--primary-color: #c32222;
+	--primary-color: #685d05;
 	--bg-color: white;
 	--text-color: #000;
 }
@@ -126,7 +126,7 @@ p {
 
 .feature-head h3 {
 	margin:0;
-	color: #26ff00;
+	color: #a09914;
 	font-size: 20px;
 }
 
@@ -150,7 +150,7 @@ p {
 .feature-icon {
 	font-size: 40px;
 	margin-right: 10px;
-	color:#00ff04;
+	color:#a09914;
 }
 
 .cta {
@@ -207,7 +207,7 @@ p {
   }
   
   .theme-primary .btn {
-      background-color: rgb(62, 208, 8);
+      background-color: rgb(38, 37, 37);
   }
 
 .container1 {
