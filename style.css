@@ -112,13 +112,21 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 30px 30px 0;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #fdfdfb;
+    border-radius: 8px;
+    background-color: #1a1a18;
+    color: #fdfdfb;
+    margin: 10px; 
 }
+
 
 .feature-head {
     display: flex;
     align-items: center;
 }
+
 
 .feature-head svg {
 	margin-right: 10px;
