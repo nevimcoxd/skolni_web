@@ -72,25 +72,23 @@
 </div>
 
 <script>
-    const themeSwitch = document.querySelector('.theme-switch');
+    const themeSwitcher = document.querySelector('.theme-switch');
 
-    themeSwitch.addEventListener('click', () => {
-
-        if (themeSwitch.classList.contains('dark')) {
-
-            themeSwitch.classList.remove('dark');
+    themeSwitcher.addEventListener('click', () => {
+        if (document.body.classList.contains('dark-theme')) {
             document.body.classList.remove('dark-theme');
-        
+            localStorage.setItem('theme', 'light');
         } else {
-            
-            themeSwitch.classList.add('dark');
             document.body.classList.add('dark-theme');
-        
+            localStorage.setItem('theme', 'dark');
         }
-
     });
 
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-theme');
+    }
 </script>
+
 
 
 <div class="container1">
@@ -116,6 +114,7 @@
         <p>AEFBwiesuBDFiubsEIUBFsbgijvbnedsifg vdpofkngiu ojb weisu dvloerihfdgfoijvs vowdosinfvodw lkwdsihv dsk; vosud vlkjs diucvbg xcij lkjsd vpksbdiuv msldc xvosbvijsd v</p>
     </div>
 </div>
+
 
 
 </body>
